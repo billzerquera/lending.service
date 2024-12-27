@@ -3,3 +3,10 @@
 ################################################################################
 
 /LendingChallenge.Api/.vs/LendingChallenge/CopilotIndices/17.12.38.29086
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates

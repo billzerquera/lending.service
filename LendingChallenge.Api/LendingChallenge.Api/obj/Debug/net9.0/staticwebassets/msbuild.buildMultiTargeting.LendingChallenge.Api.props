@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\LendingChallenge.Api.props" />
+</Project>

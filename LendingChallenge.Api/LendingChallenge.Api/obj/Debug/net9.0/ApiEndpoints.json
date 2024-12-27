@@ -1,0 +1,105 @@
+[
+  {
+    "ContainingType": "LendingChallenge.Api.Endpoints.LendingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLendingEndpoints\u003Eb__0_3",
+    "RelativePath": "customers/{msisdn}/loans",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "msisdn",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Http.HttpValidationProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "PostLoanOffersByNumber"
+  },
+  {
+    "ContainingType": "LendingChallenge.Api.Endpoints.LendingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLendingEndpoints\u003Eb__0_4",
+    "RelativePath": "customers/{msisdn}/loans",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "msisdn",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Http.HttpValidationProblemDetails",
+        "MediaTypes": [
+          "application/problem\u002Bjson"
+        ],
+        "StatusCode": 400
+      }
+    ],
+    "EndpointName": "PutLoanOffersByNumber"
+  },
+  {
+    "ContainingType": "LendingChallenge.Api.Endpoints.LendingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLendingEndpoints\u003Eb__0_2",
+    "RelativePath": "get_offers",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[LendingChallenge.Api.Entities.LoanOffer, LendingChallenge.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "LendingChallenge.Api.Endpoints.LendingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLendingEndpoints\u003Eb__0_1",
+    "RelativePath": "offers",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "PostLoanOffers"
+  },
+  {
+    "ContainingType": "LendingChallenge.Api.Endpoints.LendingEndpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapLendingEndpoints\u003Eb__0_0",
+    "RelativePath": "status",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

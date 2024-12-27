@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "jsh5+3Bw1ze5NqxlCm4Npr4RotjU8egU9Z0p3Qf7jK0=",
+  "Source": "LendingChallenge.Api",
+  "BasePath": "_content/LendingChallenge.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
